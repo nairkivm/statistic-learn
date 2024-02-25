@@ -37,9 +37,9 @@ mindmap
 
 ### Role of Probability in Inferential Statistics
 ```mermaid
-flowchart LR
-    A("`Population`")--"Probability" (Deductive Approach)-->B
-    B("`Sample`")--"Statistical Inference" (Inductive Approach)-->A
+flowchart LR;
+    A("`Population`")--"Probability" (Deductive Approach)-->B;
+    B("`Sample`")--"Statistical Inference" (Inductive Approach)-->A;
 ```
 
 ## Descriptive Statistics
