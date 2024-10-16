@@ -1,5 +1,15 @@
 # Ch. 1 : Introductions to Statistics and Data Analysis
 
+- [Ch. 1 : Introductions to Statistics and Data Analysis](#ch-1--introductions-to-statistics-and-data-analysis)
+  - [Statistical Inference, Samples, Populations, and the Role of Probability](#statistical-inference-samples-populations-and-the-role-of-probability)
+  - [Collection of Samples](#collection-of-samples)
+    - [Role of Probability in Inferential Statistics](#role-of-probability-in-inferential-statistics)
+  - [Descriptive Statistics](#descriptive-statistics)
+  - [Discrete and Continuous Data](#discrete-and-continuous-data)
+  - [Statistical Modeling, Scientific Inspection, and Graphical Diagnostics](#statistical-modeling-scientific-inspection-and-graphical-diagnostics)
+  - [General Type of Statistical Studies](#general-type-of-statistical-studies)
+
+
 ## Statistical Inference, Samples, Populations, and the Role of Probability
 
 ```mermaid
