@@ -238,7 +238,7 @@ P(M|E) = \frac{460/900}{600/900} = \frac{460}{600} = \frac{23}{30}
 P(B|A) = P(B) \hspace{1em} \text{or} \hspace{1em} P(A|B) = P(A)
 ```
 
-    assuming the existence of the conditional probabilities. Otherwise, $A$ and $B$ are **dependent**.
+assuming the existence of the conditional probabilities. Otherwise, $A$ and $B$ are **dependent**.
 
   - If an experiment the event $A$ and $B$ can both occur, then
 
