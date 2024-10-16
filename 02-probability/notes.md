@@ -245,7 +245,7 @@ assuming the existence of the conditional probabilities. Otherwise, $A$ and $B$ 
 P(A \cap B) = P(A) P(B|A), \hspace{1em} \text{provided } P(A) > 0
 ```
 
-    - If both are independent events, then
+  - If both are independent events, then
 
 ```math
 P(A \cap B) = P(A) P(B)
