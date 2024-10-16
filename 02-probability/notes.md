@@ -16,7 +16,15 @@
   - Element: each outcome in a sample space
   - In a coin tossing experiment, here is the sample space
   
-  $$S = \left\{ H, T \right\}$$
+**The Cauchy-Schwarz Inequality**
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+  ```math
+  S = \left\{ H, T \right\}
+  ```
 
   - In an experiment consists of flipping a coin and if a head occurs, the coin is flipped again and if a tail occurs, a die is tossed, the sample space is
   
