@@ -3,6 +3,7 @@
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Statistical Inference, Samples, Populations, and the Role of Probability
+
 ```mermaid
 mindmap
     root("`**Statistical Methods**`")
@@ -24,6 +25,7 @@ mindmap
 ```
 
 ## Collection of Samples
+
 ```mermaid           
 mindmap
     root("`Collection of Samples`")
@@ -33,6 +35,7 @@ mindmap
 ```
 
 ### Role of Probability in Inferential Statistics
+
 ```mermaid
 flowchart LR;
     A("`Population`")--"Probability" (Deductive Approach)-->B;
@@ -40,6 +43,7 @@ flowchart LR;
 ```
 
 ## Descriptive Statistics
+
 ```mermaid
 mindmap
     root("`Descriptive Statistics`")
@@ -58,6 +62,7 @@ mindmap
 ```
 
 ## Discrete and Continuous Data
+
 ```mermaid
 mindmap
     root("`Data`")
@@ -69,6 +74,7 @@ mindmap
 ```
 
 ## Statistical Modeling, Scientific Inspection, and Graphical Diagnostics
+
 - End result of statistical analysis: **estimation of parameters of a postulated model**
 - Make a model based on assumptions on population data
     - Distribution of data is normal/Gaussian
@@ -77,10 +83,42 @@ mindmap
     - Insight from graphical diagnostic -> help highlighting violation of assumptions
     - Do _Exploratory Data Analysis_ (EDA)
 - Graphical data
-    - Scatter Plot
-    - Stem-and-Leaf Plot -> allow to see the distribution of data (alt: _Frequency Distribution_)
-    - Histogram -> allow to see the distribution of data
-    - Box-and-Whisker Plot or Box Plot -> visibility of median, quartiles, outliers, and tails of distribution
-    - Density Plot
+    - [Scatter Plot](https://en.wikipedia.org/wiki/Scatter_plot)
+
+    ![scatter-plot-example](https://upload.wikimedia.org/wikipedia/commons/a/af/Scatter_diagram_for_quality_characteristic_XXX.svg)
+
+    - [Stem-and-Leaf Plot](https://en.wikipedia.org/wiki/Stem-and-leaf_display) -> allow to see the distribution of data (alt: _Frequency Distribution_)
+
+    ![stem-and-leaf-plot-example](https://mathspace-production-media.mathspace.co/media/upload/images/001_Chapter_Entries/Data_Analysis/stem-and-leaf-plot.png)
+
+    - [Histogram](https://en.wikipedia.org/wiki/Histogram) -> allow to see the distribution of data
+
+    ![histogram-example](https://upload.wikimedia.org/wikipedia/commons/1/1d/Example_histogram.png)
+
+    - [Box-and-Whisker Plot or Box Plot](https://en.wikipedia.org/wiki/Box_plot) -> visibility of median, quartiles, outliers, and tails of distribution
+  
+    ![box-plot-example](https://upload.wikimedia.org/wikipedia/commons/f/fa/Michelsonmorley-boxplot.svg)
+
+    - [Density Plot](https://www.geeksforgeeks.org/density-plots-with-pandas-in-python/)
+
+    ![density-plot-example](https://media.geeksforgeeks.org/wp-content/uploads/20201116233017/speeding.png)
+
+    - [Violin Plot](https://en.wikipedia.org/wiki/Violin_plot)
+
+    ![violin-plot-example](https://upload.wikimedia.org/wikipedia/commons/3/3a/Violin_plot.gif)
+
     - etc
-    - 
+
+## General Type of Statistical Studies
+
+```mermaid
+mindmap
+    root("`Statistical Studies`")
+        Designed Experiment
+        Observational Study
+        Restrospective Study
+```
+
+- Interaction
+  - When studying a simple experiment with two factors, we need to know whether the factors are interacting or not
+  - Parallelism happened when the two factors are not interacting, producing parallel line when connecting the sample means
