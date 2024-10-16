@@ -117,7 +117,6 @@ graph TD
     E --> E1
     F --> F1
     G --> G1
-
 ```
 
   - Type I: number of permutation of $n$ objects 
