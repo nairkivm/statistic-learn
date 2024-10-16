@@ -1,9 +1,6 @@
 # Ch. 1 : Introductions to Statistics and Data Analysis
 
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Statistical Inference, Samples, Populations, and the Role of Probability
 ```mermaid
