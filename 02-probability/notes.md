@@ -16,9 +16,9 @@
   - Element: each outcome in a sample space
   - In a coin tossing experiment, here is the sample space
   
-    ```math
-    S = \left\{ H, T \right\}
-    ```
+  ```math
+  S = \left\{ H, T \right\}
+  ```
 
   - In an experiment consists of flipping a coin and if a head occurs, the coin is flipped again and if a tail occurs, a die is tossed, the sample space is
   
