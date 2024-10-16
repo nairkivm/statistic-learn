@@ -26,7 +26,7 @@ S = \left\{ H, T \right\}
 S = \left\{ HH, HT, T1, T2, T3, T4, T5, T6 \right\}
 ```
 
-    it also can be expressed in a tree diagram.
+it also can be expressed in a tree diagram.
 
 ```mermaid
 flowchart TD
