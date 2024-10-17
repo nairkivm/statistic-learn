@@ -55,10 +55,41 @@ F(x) = P(X \leq x) = \sum_{t<x} f(t), \hspace{1em} \text{for } -\infty < x < \in
 
 ## Continuous Probability Distribution
 
-
+![example-of-pdf](https://upload.wikimedia.org/wikipedia/commons/4/4f/4_continuous_probability_density_functions.png)
 
 - [Probability density function (pdf)](https://en.wikipedia.org/wiki/Probability_density_function): a function ($f(x)$) for the continuous random variable $X$, defined over the set of real number, If
   1. $f(x) \geq 0$, for all $x \in R$
   2. $\int_{-\infty}^{\infty} f(x) dx = 1$
   3. $P(a < X < b) = \int_{a}^{b} f(x) dx$
+
+- Cumulative distribution function $F(x)$ of a continuous random variable X with density function $f(x)$
+
+```math
+F(x) = P(X \leq x) = \int_{-\infty}^{\infty} f(t) dt, \hspace{1em} \text{for } -\infty < x < \infty
+```
+
+- Joint probability distribution of discrete random variable $X$ and $Y$
+  1. $f(x, y) \geq 0$, for all $(x, y)$
+  2. $\sum_{x}\sum_{y} f(x, y) = 1$
+  3. $P(X = x, Y = y) = f(x, y)$
+
+- Joint probability distribution of continuous random variable $X$ and $Y$
+  1. $f(x, y) \geq 0$, for all $(x, y)$
+  2. $\int_{-\infty}^{\infty}\int_{-\infty}^{\infty} f(x, y) dx dy = 1$
+  3. $P[(X,Y) \in A] = \int\int_{A} f(x, y) dx dy$
+
+- Marginal distribution of $X$ alone and of $Y$ alone are
+  - For discrete case: $g(x) = \sum_{y} f(x, y)$ (*column totals*) and $h(y) = \sum_{x} f(x, y)$ (*row totals*)
+  - For continuous case: $g(x) = \int_{-\infty}^{\infty} f(x, y) dy$ and $h(y) = \int_{-\infty}^{\infty} f(x, y) dx$
+
+- Conditional distribution of the random variable $Y$, given $X = x$ is
+
+```math
+f(y|x) = \frac{f(x, y)}{g(x)}, \hspace{1em} \text{provided } g(x) > 0
+```
+
+- Statistically independence: if $f(y|x)$ does not depend on $x$, then
+    
+    $f(y|x) = h(y)$ and $f(x, y) = g(x) h(y)$
+
 - 
