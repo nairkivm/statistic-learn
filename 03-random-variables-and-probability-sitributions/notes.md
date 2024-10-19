@@ -49,7 +49,7 @@ graph TD
 
   2. If 50% of the car inventory of an agency is blue, find the probability distribution of the number of blue cars among the next 4 cars sold!
      - $f(x) = \frac{\binom{4}{x}}{2^{4}} = \frac{1}{16} \binom{4}{x}$, for $x$ = 0, 1, 2, $\cdots$, 4
-- Cumulative distribution function ($F(x)$)
+- Cumulative distribution function ( $F(x)$ )
 
 ```math
 F(x) = P(X \leq x) = \sum_{t<x} f(t), \hspace{1em} \text{for } -\infty < x < \infty
