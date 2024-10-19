@@ -6,7 +6,10 @@
   - Let $X$ be a random variable with a probability distribution $f(x)$. The *mean* or *expected value*:
 
 ```math
-\mu = E(X) = \sum_{x} x f(x) \hspace{2em} \text{(if discrete)} \newline
+\mu = E(X) = \sum_{x} x f(x) \hspace{2em} \text{(if discrete)}
+```
+
+```math
 \mu = E(X) = \int_{-\infty}^{\infty} x f(x)  dx \hspace{2em} \text{(if continuous)}
 ```
 
