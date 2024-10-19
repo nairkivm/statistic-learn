@@ -52,7 +52,9 @@ graph TD
 - Cumulative distribution function ( $F(x)$ )
 
 ```math
+
 F(x) = P(X \leq x) = \sum_{t<x} f(t), \hspace{1em} \text{for } -\infty < x < \infty
+
 ```
 
   - Example: $F(0) = f(0)$, $F(1) = f(0) + f(1)$, $F(2) = f(0) + f(1) + f(2)$, $\cdots$, $F(\infty) = 1$
