@@ -1,5 +1,10 @@
 # Ch. 3: Random Variables and Probability Distributions
 
+- [Ch. 3: Random Variables and Probability Distributions](#ch-3-random-variables-and-probability-distributions)
+  - [Concept of a Random Variable](#concept-of-a-random-variable)
+  - [Discrete Probability Distribution](#discrete-probability-distribution)
+  - [Continuous Probability Distribution](#continuous-probability-distribution)
+
 ## Concept of a Random Variable
 
 ```mermaid
