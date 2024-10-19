@@ -18,7 +18,9 @@
 
 ```math
 f(x) = \frac{\text{ways to take } x \text{ blue balls from 4 blue balls} \times \text{ways to take } 3-x \text{ red balls from 3 red balls}}{\text{ways to take 3 balls from 7 balls}}
-\newline \hspace{1em} \newline
+```
+
+```math
 = \frac{\binom{4}{x} \binom{3}{3-x}}{\binom{7}{3}}, \hspace{2em} x = 0,1,2,3 
 ```
 
