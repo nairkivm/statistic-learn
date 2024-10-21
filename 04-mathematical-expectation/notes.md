@@ -1,5 +1,11 @@
 # Ch. 4: Mathematical Expectation
 
+- [Ch. 4: Mathematical Expectation](#ch-4-mathematical-expectation)
+  - [Mean of a Random Variable](#mean-of-a-random-variable)
+  - [Variance and Covariance of Random Variables](#variance-and-covariance-of-random-variables)
+  - [Means and Variance of Linear Combination of Random Variables](#means-and-variance-of-linear-combination-of-random-variables)
+  - [Chebyshev's Theorem](#chebyshevs-theorem)
+
 ## Mean of a Random Variable
 
 - Expected Value of $X$:
