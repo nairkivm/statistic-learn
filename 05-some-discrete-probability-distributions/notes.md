@@ -130,3 +130,94 @@ f(x_1, x_2, \cdots, x_k; a_1, a_2, \cdots, a_k, N, n) = \frac{\binom{a_1}{x_1} \
 ```math
 f(1, 2, 2; 3, 4, 3, 10, 5) = \frac{3}{14}
 ```
+
+## Negative Binomial and Geometric Distribution
+
+### Negative Binomial Distribution
+
+- Negative Binomial Distribution
+  - Instead of the probability of $x$ successes in $n$ trials, where $n$ is fixed, we are now interested in the probability that the $k$-th success occurs on the $x$-th trial.
+  - Definition: If repeated independent trials can result in a success with probability $p$ and a failure with probability $q = 1 - p$, then the probability distribution of the random variable $X$, the number of the trial on which the $k$th success occurs is
+
+```math
+b^*(x; k, p) = \binom{x-1}{k-1}p^kq^{x-k}, \hspace{2em} x = k, k+1, k+2, \cdots
+```
+
+- - Examples: Suppose that a team will win a series if they are winning 4 out of 7 games. Team A has probability 0.55 of winning a game over team B. What is the probability that team A will win the series in 6 games?
+
+```math
+b^*(6; 4, 0.55) = 0.1853
+```
+
+## Geometric Distribution
+
+- Geometric Distribution
+  - A special case of [negative binomial distribution](#negative-binomial-distribution) where $k = 1$ (A probability distribution for the number of trials required for a single success)
+  - Definition: If repeated independent trials can result in a success with probability $p$ and a ffailure with probability $q = 1 - p$. then the probability distribution of the random variable $X$, the number of the trial on which the first success occurs, is
+
+```math
+g(x;p) = pq^x, \hspace{2em} x=1,2,3,\cdots
+```
+
+- The mean of geometric distribution $g(x;p)$
+
+```math
+\mu = \frac{1}{p}
+```
+
+- The variance of geometric distribution $g(x;p)$
+
+```math
+\sigma^2 = \frac{1-p}{p^2}
+```
+
+## Poisson Distribution
+
+- Poisson experiment
+  - Experiments yielding numerical values of a random variable $X$, the number of outcomes occuring during a given time interval or in specied region
+  - Example for $X$
+    - Number of telephone calls receiver per hour by an office
+    - Number of days school is closed due to snow during winter
+    - Number of photons captured by CCD during an astronomical observation
+- Poisson process
+  - No memory property: The number of outcomes occuring in one time interval or specified region of space is independent of the number that occur in any other disjoint time interval or region.
+  - The probability that a single outcome will occur during a very short time interval or in a small region is proportional to the length of the time interval or size of the region and does not depend on the number of outcomes occuring outside this time interval or region
+  - The probability that more than one outcome will occur in such a short time interval or fall in such a small region is negligible
+- Definition
+  - The probability distribution of a random Poisson variable $X$, representing the number of outcomes occuring in a given time interval or specified region denoted by $t$, is 
+
+```math
+p(x; \lambda t) = \frac{e^{-\lambda t} \left(\lambda t \right)^{x}}{x!}, \hspace{2em} x = 1, 2, 3, \cdots
+```
+
+- Probability sums
+
+```math
+P(r; \lambda t) = \sum_{x=0}^{r} p(x; \lambda t)
+```
+
+- Mean of poisson distribution $p(x; \lambda t)$
+
+```math
+\mu = \lambda t
+```
+
+- Variance of poisson distribution $p(x; \lambda t)$
+
+```math
+\sigma^2 = \lambda t
+```
+
+- Approximation of Binomial Distribution by a Poisson Distribution
+  - Let $X$ be a binomial random variable with probability distribution $b(x; n, p)$. When $n \to \infty$, $p \to 0$, and $np \xrightarrow{n \to \infty} \mu$ remains constant,
+
+```math
+b(x; n, p) \xrightarrow{n \to \infty} p(x; \mu)
+```
+
+- Example: In a certain industrial facility, accidents occur infrequently. It is known that the probability of an accident on any given day is 0.005 and accidents are independent of each other. What is the probability that in any given period of 400 days, there will be an accident on one day.
+
+```math
+P(X = 1) = e^{-2} 2^{1} = 0.271
+```
+
