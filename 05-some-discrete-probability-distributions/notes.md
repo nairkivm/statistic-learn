@@ -1,5 +1,16 @@
 # Ch. 5: Some Discrete Probability Distribution
 
+- [Ch. 5: Some Discrete Probability Distribution](#ch-5-some-discrete-probability-distribution)
+  - [Binomial and Multinomial Distributions](#binomial-and-multinomial-distributions)
+    - [Binomial Distributions](#binomial-distributions)
+    - [Multinomial distributions](#multinomial-distributions)
+  - [Hypergeometric Distribution](#hypergeometric-distribution)
+  - [Negative Binomial and Geometric Distribution](#negative-binomial-and-geometric-distribution)
+    - [Negative Binomial Distribution](#negative-binomial-distribution)
+  - [Geometric Distribution](#geometric-distribution)
+  - [Poisson Distribution](#poisson-distribution)
+
+
 ```mermaid
 mindmap
     root(Discrete Probability Distributions)
