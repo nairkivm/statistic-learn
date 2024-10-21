@@ -172,4 +172,5 @@ Var[g(X)] \approx \left[ \frac{\partial g(x)}{\partial x} \right]_{x= \mu_{X}}^{
 P \left( \mu - k \sigma < X < \mu + k \sigma \right) \geq 1 - \frac{1}{k^2}
 ```
 
+- We can read it as: "The probability of at least $1 - 1/k^2$ of falling between $\mu - k \sigma$ and $\mu + k \sigma$"
 - This theorem helps us to estimate a mean without knowledge of distribution function shape
