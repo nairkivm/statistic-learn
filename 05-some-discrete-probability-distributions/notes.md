@@ -26,6 +26,8 @@ mindmap
 
 ### Binomial Distributions
 
+![Binomial Distribution](https://upload.wikimedia.org/wikipedia/commons/7/75/Binomial_distribution_pmf.svg)
+
 - Bernoulli process (process that results in one of two outcomes: success or failure)
   - The experiment consists of repeated trials
   - Each trial results in an outcome that may be classified as a success or failure
@@ -65,6 +67,8 @@ P(X \geq 1) = 1 - P(X = 0) = 1 - b(0; 20, 0.03) = 0.4562
 
 ### Multinomial distributions
 
+![Multinomial Distribution](https://blogs.sas.com/content/iml/files/2013/08/multinomial.png)
+
 - Multinomial distributions
   - If a given trial can result in the $k$ outcomes $E_1, E_2, \cdots, E_k$ with probabilities $p_1, p_2, \cdots, p_k$, then the probability distribution of the random variable $X_1, X_2, \cdots, X_k$, representing the number of the occurences in $n$ independent trials is
 
@@ -92,6 +96,8 @@ f \left( 2, 1, 3 ; \frac{2}{9} \frac{1}{6} \frac{11}{18} \right) = 0.1127
 ```
 
 ## Hypergeometric Distribution
+
+![Hypergeometric Distribution](https://upload.wikimedia.org/wikipedia/commons/c/c1/HypergeometricPDF.png)
 
 - Hypergeometric distribution
   - Properties:
@@ -146,6 +152,8 @@ f(1, 2, 2; 3, 4, 3, 10, 5) = \frac{3}{14}
 
 ### Negative Binomial Distribution
 
+![Negative Binomial Distribution](https://www.boost.org/doc/libs/1_40_0/libs/math/doc/sf_and_dist/graphs/negative_binomial_pdf_1.png)
+
 - Negative Binomial Distribution
   - Instead of the probability of $x$ successes in $n$ trials, where $n$ is fixed, we are now interested in the probability that the $k$-th success occurs on the $x$-th trial.
   - Definition: If repeated independent trials can result in a success with probability $p$ and a failure with probability $q = 1 - p$, then the probability distribution of the random variable $X$, the number of the trial on which the $k$th success occurs is
@@ -161,6 +169,8 @@ b^*(6; 4, 0.55) = 0.1853
 ```
 
 ## Geometric Distribution
+
+![Geometric Distribution](https://upload.wikimedia.org/wikipedia/commons/4/4b/Geometric_pmf.svg)
 
 - Geometric Distribution
   - A special case of [negative binomial distribution](#negative-binomial-distribution) where $k = 1$ (A probability distribution for the number of trials required for a single success)
@@ -184,6 +194,8 @@ g(x;p) = pq^x, \hspace{2em} x=1,2,3,\cdots
 
 ## Poisson Distribution
 
+![Poisson Distribution](https://upload.wikimedia.org/wikipedia/commons/1/16/Poisson_pmf.svg)
+
 - Poisson experiment
   - Experiments yielding numerical values of a random variable $X$, the number of outcomes occuring during a given time interval or in specied region
   - Example for $X$
@@ -199,6 +211,10 @@ g(x;p) = pq^x, \hspace{2em} x=1,2,3,\cdots
 
 ```math
 p(x; \lambda t) = \frac{e^{-\lambda t} \left(\lambda t \right)^{x}}{x!}, \hspace{2em} x = 1, 2, 3, \cdots
+```
+
+```math
+\text{where } \lambda \text{ is the average number of outcomes per unit time, distance, area, or volume and } e = 2.718...
 ```
 
 - Probability sums
